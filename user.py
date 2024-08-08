@@ -21,7 +21,7 @@ Choose the option:
     9. UPDATE user
     10. Press any key to exit
 """
-         # hello world
+""" simple cli project. """
 def create_table(conn):
     CREATE_USERS_TABLE_QUERY = """
         CREATE TABLE IF NOT EXISTS users(
